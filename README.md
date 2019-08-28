@@ -20,5 +20,5 @@ Usage of slowserver:
 ## Example
 ```sh
 docker run aclowkey:slowserver -listen :8080 -max-timeout 1m
-curl localhost:8080/timeout?timeout=1m
+curl localhost:8080/duration?timeout=15s
 ```
