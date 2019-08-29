@@ -24,4 +24,4 @@ $ time curl localhost:8080/timeout?duration=15s
 real    0m15.027s
 user    0m0.019s
 sys     0m0.005s
-``
+```
